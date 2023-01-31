@@ -12,15 +12,15 @@ public class caidatthuattoan {
             else
                 low = mid + 1;
         }
-        return -1; /* Now high < low, key not found */
+        return -1;
     }
 
     public static void main(String[] args) {
-        System.out.println(caidatthuattoan(list, 2));  /* 0 */
-        System.out.println(caidatthuattoan(list, 11)); /* 4 */
-        System.out.println(caidatthuattoan(list, 79)); /*12 */
-        System.out.println(caidatthuattoan(list, 1));  /*-1 */
-        System.out.println(caidatthuattoan(list, 5));  /*-1 */
-        System.out.println(caidatthuattoan(list, 80)); /*-1 */
+        System.out.println(caidatthuattoan(list, 2));
+        System.out.println(caidatthuattoan(list, 11));
+        System.out.println(caidatthuattoan(list, 79));
+        System.out.println(caidatthuattoan(list, 1));
+        System.out.println(caidatthuattoan(list, 5));
+        System.out.println(caidatthuattoan(list, 80));
     }
 }
